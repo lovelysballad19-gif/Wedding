@@ -1,0 +1,157 @@
+/* ===========================
+ROYAL GARDEN ELEGANCE
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    background:#f8f5ef;
+
+    color:#4b3b2a;
+
+    font-family:'Poppins',sans-serif;
+
+    overflow-x:hidden;
+
+}
+
+.hero{
+
+    min-height:100vh;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    background:linear-gradient(
+    180deg,
+    #faf8f4,
+    #efe5cf,
+    #e4d4b5);
+
+    padding:40px;
+
+}
+
+.hero h3{
+
+    font-size:20px;
+
+    color:#9c7c38;
+
+    margin-bottom:20px;
+
+}
+
+.hero h1{
+
+    font-size:70px;
+
+    color:#7b5c2f;
+
+    line-height:1.2;
+
+    margin-bottom:20px;
+
+}
+
+.hero span{
+
+    color:#c8a856;
+
+}
+
+.hero p{
+
+    font-size:22px;
+
+    margin:8px;
+
+}
+
+button{
+
+    margin-top:40px;
+
+    padding:18px 45px;
+
+    background:#b48b3c;
+
+    color:white;
+
+    border:none;
+
+    border-radius:50px;
+
+    font-size:20px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+button:hover{
+
+    background:#8e6b2c;
+
+    transform:scale(1.05);
+
+}
+
+.hidden{
+
+    display:none;
+
+}
+
+#content{
+
+    max-width:900px;
+
+    margin:auto;
+
+    padding:80px 30px;
+
+    line-height:1.8;
+
+}
+
+h2{
+
+    color:#8b6c34;
+
+    margin-bottom:20px;
+
+}
+
+h3{
+
+    margin-top:40px;
+
+    color:#9b7b3d;
+
+}
+
+footer{
+
+    margin-top:80px;
+
+    padding:30px;
+
+    text-align:center;
+
+    color:#999;
+
+}
