@@ -1,22 +1,20 @@
-/* ===========================
-ROYAL GARDEN ELEGANCE
-=========================== */
-
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
 }
 
+html{
+    scroll-behavior:smooth;
+}
+
 body{
-
-    background:#f8f5ef;
-
-    color:#4b3b2a;
 
     font-family:'Poppins',sans-serif;
 
-    overflow-x:hidden;
+    background:#f8f5ef;
+
+    color:#2d2d2d;
 
 }
 
@@ -26,132 +24,146 @@ body{
 
     display:flex;
 
-    flex-direction:column;
-
     justify-content:center;
 
     align-items:center;
 
     text-align:center;
 
-    background:linear-gradient(
-    180deg,
-    #faf8f4,
-    #efe5cf,
-    #e4d4b5);
+    background:
+    linear-gradient(rgba(0,0,0,.35),rgba(0,0,0,.35)),
+    url("https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1600&q=80");
+
+    background-size:cover;
+
+    background-position:center;
+
+    color:white;
+
+    position:relative;
+
+}
+
+.hero-content{
+
+    z-index:2;
 
     padding:40px;
 
 }
 
-.hero h3{
+.small-title{
 
-    font-size:20px;
+    letter-spacing:6px;
 
-    color:#9c7c38;
+    text-transform:uppercase;
 
     margin-bottom:20px;
+
+    font-size:14px;
 
 }
 
 .hero h1{
 
-    font-size:70px;
+    font-family:'Cormorant Garamond',serif;
 
-    color:#7b5c2f;
+    font-size:80px;
 
-    line-height:1.2;
+    font-weight:600;
 
-    margin-bottom:20px;
-
-}
-
-.hero span{
-
-    color:#c8a856;
+    line-height:1.1;
 
 }
 
-.hero p{
+.hero h1 span{
+
+    display:block;
+
+    font-size:45px;
+
+    margin:15px 0;
+
+}
+
+.date{
+
+    margin-top:30px;
 
     font-size:22px;
 
-    margin:8px;
+}
+
+.venue{
+
+    margin-top:10px;
+
+    font-size:18px;
+
+    opacity:.9;
 
 }
 
-button{
+.btn{
 
-    margin-top:40px;
+    display:inline-block;
 
-    padding:18px 45px;
+    margin-top:45px;
 
-    background:#b48b3c;
+    padding:16px 45px;
 
-    color:white;
+    text-decoration:none;
 
-    border:none;
+    color:#fff;
+
+    border:2px solid #d4af37;
 
     border-radius:50px;
-
-    font-size:20px;
-
-    cursor:pointer;
 
     transition:.3s;
 
 }
 
-button:hover{
+.btn:hover{
 
-    background:#8e6b2c;
+    background:#d4af37;
 
-    transform:scale(1.05);
-
-}
-
-.hidden{
-
-    display:none;
+    color:#222;
 
 }
 
-#content{
+#invitation{
 
-    max-width:900px;
-
-    margin:auto;
-
-    padding:80px 30px;
-
-    line-height:1.8;
-
-}
-
-h2{
-
-    color:#8b6c34;
-
-    margin-bottom:20px;
-
-}
-
-h3{
-
-    margin-top:40px;
-
-    color:#9b7b3d;
-
-}
-
-footer{
-
-    margin-top:80px;
-
-    padding:30px;
+    padding:100px 30px;
 
     text-align:center;
 
-    color:#999;
+    background:white;
+
+}
+
+.container{
+
+    max-width:800px;
+
+    margin:auto;
+
+}
+
+.container h2{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:42px;
+
+    margin-bottom:30px;
+
+}
+
+.container p{
+
+    line-height:2;
+
+    font-size:18px;
 
 }
